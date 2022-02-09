@@ -1,0 +1,47 @@
+.Main{
+    height: 100vh;
+    width: 100vw;
+}
+.Head{
+    height: 10vh;
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+.Content{
+    height: 90vh;
+    width: 120vw;
+    align-items: center;
+    justify-content: center;
+}
+.Content img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(20%)
+}
+.Content .Buo{
+      position: absolute;
+      top: 40%;
+      right: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+}
+.Button1 {
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: white;
+}
+.Button2 {
+    border-radius: 8px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: white;
+}

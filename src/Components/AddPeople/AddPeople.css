@@ -1,0 +1,48 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+/* .Head{
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    font-weight: bolder;
+} */
+ /* .w-75{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+} */
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.head{
+    height: 10vh;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+.form-group{
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.bou{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
